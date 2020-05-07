@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://filipesantoscorrea.com`,
+    siteUrl: `https://ecodelivery.org`,
   },
   plugins: [
     {
@@ -9,7 +9,7 @@ module.exports = {
         fonts: [
           {
             family: `Open Sans`,
-            variants: [`300`, `600`]
+            variants: [`300`, `600`],
           },
         ],
       },
@@ -18,17 +18,17 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
+          include: /assets/,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Filipe Santos Correa`,
-        short_name: `Filipe`,
+        name: `Ecodelivery Galapagos`,
+        short_name: `Ecodelivery`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#2d2d2d`,
         theme_color: `#0873e8`,
         display: `standalone`,
         icon: `assets/appicon.png`,
@@ -55,27 +55,29 @@ module.exports = {
                 }
               }
             }
-        }`
-      }
+        }`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-137805599-1",
+        trackingId: "UA-165834512-1",
         head: true,
         anonymize: true,
-        respectDNT: true
+        respectDNT: true,
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://filipesantoscorrea.com',
-        sitemap: 'https://filipesantoscorrea.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
-      }
+        host: "https://ecodelivery.org",
+        sitemap: "https://ecodelivery.org/sitemap.xml",
+        policy: [
+          { userAgent: "*", allow: "/", disallow: ["/privacy", "/legal"] },
+        ],
+      },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
   ],
 }
