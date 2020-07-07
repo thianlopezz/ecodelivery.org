@@ -23,18 +23,18 @@ export default () => (
     </OutboundLink> */}
 
     <OutboundLink
-      href="https://www.facebook.com/ecodelivery"
+      href="https://www.facebook.com/ecodeliverygalapagos"
       rel="noopener noreferrer"
       target="_blank"
-      aria-label="Link to my Fb profile"
+      aria-label="Link to Fb profile"
     >
       <Fb alt="Fb icon" />
     </OutboundLink>
 
     <OutboundLink
-      href="https://www.instagram.com/ecodelivery"
+      href="https://www.instagram.com/ecodelivery.galapagos"
       rel="noopener noreferrer"
-      aria-label="Link to my Ig profile"
+      aria-label="Link to Ig profile"
     >
       <Ig alt="Ig icon" />
     </OutboundLink>
