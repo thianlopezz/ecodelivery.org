@@ -7,7 +7,7 @@ export default () => (
     {/* <h1 className={styles.headline}>
       Ecodelivery <br /> Galápagos
     </h1> */}
-    <p className={styles.underline}>Lo hacemos por ti de forma ecológica.</p>
+    <p className={styles.underline}>Lo hacemos por ti.</p>
     <p className={styles.underline}>Muy pronto.</p>
   </>
 )
