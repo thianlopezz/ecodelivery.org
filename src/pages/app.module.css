@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #2d2d2d;
+  height: 100vh;
+}
+
+.contenido {
+    margin: auto;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido>
+    img{
+        margin-top: 1rem;
+    }
+
+h1 {
+    margin-top: .5rem;
+}
+
+h2 {
+    margin-bottom: .5rem;
+}
+
