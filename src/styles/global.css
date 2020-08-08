@@ -1,7 +1,42 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
   margin: 0;
+}
+
+/* TABLE STYLES */
+
+.table_responsive {
+  /* overflow-x: auto; */
+  padding: 1rem;
+}
+
+.zui_table {
+  overflow-x: auto;
+}
+
+.zui_table {
+  border: solid 1px #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* font: normal 13px Arial, sans-serif; */
+}
+
+.zui_table thead th {
+  background-color: var(--primary-color);
+  border: solid 1px #ddeeee;
+  /* color: #336b6b; */
+  /* color: var(--primary-color); */
+  padding: 10px;
+  text-align: left;
+  /* text-shadow: 1px 1px 1px #fff; */
+}
+
+.zui_table tbody td {
+  border: solid 1px #ddeeee;
+  color: #333;
+  padding: 10px;
+  /* text-shadow: 1px 1px 1px #fff; */
 }

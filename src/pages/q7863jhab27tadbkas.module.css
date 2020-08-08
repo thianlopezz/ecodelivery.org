@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2d2d2d;
+  min-height: 100vh;
+}
+
+table {
+  color: #ffffff;
+  margin: auto;
+}
+
+.article {
+  margin: 3rem 1rem;
+  color: var(--text-color);
+  max-width: 60ch;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.article h1 {
+  font-size: 2rem;
+}
+
+.article section:not(:first-child) {
+  margin-top: 4rem;
+}
+
+.final {
+  margin-top: 4em;
+  display: block;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.article h4 {
+  margin-top: 2.5em;
+}
+
+.center {
+  text-align: center;
+}
+
+/* TABLE STYLES */
+
+.table_responsive {
+  /* overflow-x: auto; */
+  padding: 1rem;
+}
+
+.table_responsive h2 {
+  color: #ddeeee;
+}
+
+.zui_table {
+  overflow-x: auto;
+}
+
+.zui_table {
+  border: solid 1px #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* font: normal 13px Arial, sans-serif; */
+}
+
+.zui_table thead th {
+  background-color: var(--primary-color);
+  border: solid 1px #ddeeee;
+  /* color: #336b6b; */
+  /* color: var(--primary-color); */
+  padding: 10px;
+  text-align: left;
+  /* text-shadow: 1px 1px 1px #fff; */
+}
+
+.zui_table tbody td {
+  border: solid 1px #ddeeee;
+  /* color: #333; */
+  padding: 10px;
+  /* text-shadow: 1px 1px 1px #fff; */
+}
+
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+}
+
+.loading {
+  margin: auto;
+}
