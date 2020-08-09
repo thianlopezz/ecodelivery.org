@@ -31,10 +31,12 @@ export default function ModalUsuario({ order = {}, isOpen, onClose }) {
         </a>
       </h2>
 
-      <img
-        style={{ borderRadius: "50%", width: "100px" }}
-        src={order.fotoUsuario}
-      />
+      <div style={{ textAlign: "center" }}>
+        <img
+          style={{ borderRadius: "50%", width: "100px" }}
+          src={order.fotoUsuario}
+        />
+      </div>
       <h4 style={{ textAlign: "center" }}>{order.nombre}</h4>
       <p style={{ textAlign: "center" }}>{order.contactoUsuario}</p>
       {order.location && (
