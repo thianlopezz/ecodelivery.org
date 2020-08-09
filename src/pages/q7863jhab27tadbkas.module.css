@@ -49,7 +49,7 @@ a {
 /* TABLE STYLES */
 
 .table_responsive {
-  /* overflow-x: auto; */
+  overflow-x: auto;
   padding: 1rem;
 }
 
@@ -57,9 +57,9 @@ a {
   color: #ddeeee;
 }
 
-.zui_table {
+/* .zui_table {
   overflow-x: auto;
-}
+} */
 
 .zui_table {
   border: solid 1px #ddeeee;
