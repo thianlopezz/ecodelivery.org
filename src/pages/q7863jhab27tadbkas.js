@@ -73,7 +73,7 @@ export default () => {
     <div className={styles.container}>
       <article className={styles.article}>
         <section>
-          <h1>Ecodelivery command center</h1>
+          <h1 style={{ textAlign: "center" }}>Ecodelivery command center</h1>
         </section>
       </article>
       {loading ? (
