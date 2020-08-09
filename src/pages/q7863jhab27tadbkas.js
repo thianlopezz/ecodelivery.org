@@ -107,7 +107,21 @@ export default () => {
             </article>
           </section>
           <section className={styles.table_responsive}>
-            <h2>N. Pedidos {orders.length}</h2>
+            <h2>
+              N. Pedidos {orders.length}{" "}
+              <small>
+                {" "}
+                <a
+                  href="javascript:;"
+                  onClick={() => {
+                    getOrders()
+                    getConfiguraciones()
+                  }}
+                >
+                  Actualizar
+                </a>{" "}
+              </small>
+            </h2>
             <table className={styles.zui_table}>
               <thead>
                 <tr>
