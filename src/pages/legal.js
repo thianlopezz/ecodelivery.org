@@ -11,6 +11,7 @@ export default () => (
         <p>
           <strong>TÉRMINOS Y CONDICIONES</strong>
         </p>
+        <p>&nbsp;</p>
         <p> ¡Bienvenido a Ecodelivery Galapagos! </p>{" "}
         <p>
           {" "}
