@@ -1,58 +1,350 @@
-import React from 'react';
-import styles from './privacy-legal.module.css'
+import React from "react"
+import styles from "./privacy-legal.module.css"
 
 export default () => (
   <div className={styles.container}>
     <article className={styles.article} id="english" lang="en">
+      <figure>
+        <img src="/logo.png" width="200px" />
+      </figure>
       <section>
-        <h1>Website Terms and Conditions of Use</h1>
-        <section>
-          <h2>1. Terms</h2>
-
-          <p>By accessing this Website, accessible from https://www.ecodelivery.org/, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
-
-          <h2>2. Use License</h2>
-
-          <p>Permission is granted to temporarily download one copy of the materials on Ecodelivery Galapagos' Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
-
-          <ul>
-              <li>modify or copy the materials;</li>
-              <li>use the materials for any commercial purpose or for any public display;</li>
-              <li>attempt to reverse engineer any software contained on Ecodelivery Galapagos' Website;</li>
-              <li>remove any copyright or other proprietary notations from the materials; or</li>
-              <li>transferring the materials to another person or "mirror" the materials on any other server.</li>
-          </ul>
-
-          <p>This will let Ecodelivery Galapagos to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a>.</p>
-
-          <h2>3. Disclaimer</h2>
-
-          <p>All the materials on Ecodelivery Galapagos’s Website are provided "as is". Ecodelivery Galapagos makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Ecodelivery Galapagos does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
-
-          <h2>4. Limitations</h2>
-
-          <p>Ecodelivery Galapagos or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Ecodelivery Galapagos’s Website, even if Ecodelivery Galapagos or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
-
-          <h2>5. Revisions and Errata</h2>
-
-          <p>The materials appearing on Ecodelivery Galapagos’s Website may include technical, typographical, or photographic errors. Ecodelivery Galapagos will not promise that any of the materials in this Website are accurate, complete, or current. Ecodelivery Galapagos may change the materials contained on its Website at any time without notice. Ecodelivery Galapagos does not make any commitment to update the materials.</p>
-
-          <h2>6. Links</h2>
-
-          <p>Ecodelivery Galapagos has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Ecodelivery Galapagos of the site. The use of any linked website is at the user’s own risk.</p>
-
-          <h2>7. Site Terms of Use Modifications</h2>
-
-          <p>Ecodelivery Galapagos may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
-
-          <h2>8. Your Privacy</h2>
-
-          <p>Please read our Privacy Policy.</p>
-
-          <h2>9. Governing Law</h2>
-
-          <p>Any claim related to Ecodelivery Galapagos's Website shall be governed by the laws of af without regards to its conflict of law provisions.</p>
-        </section>
+        <p>
+          <strong>TÉRMINOS Y CONDICIONES</strong>
+        </p>
+        <p> ¡Bienvenido a Ecodelivery Galapagos! </p>{" "}
+        <p>
+          {" "}
+          Estos términos y condiciones describen las reglas y regulaciones para
+          el uso del sitio web de Ecodelivery Galapagos, ubicado en
+          https://www.ecodelivery.org/.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Al acceder a este sitio web, asumimos que aceptas estos términos y
+          condiciones. No continúes usando Ecodelivery Galapagos si no estás de
+          acuerdo con todos los términos y condiciones establecidos en esta
+          página.{" "}
+        </p>{" "}
+        <p>
+          <strong>Cookies:</strong>
+        </p>
+        <p>
+          {" "}
+          El sitio web utiliza cookies para ayudar a personalizar tu experiencia
+          en línea. Al acceder a Ecodelivery Galapagos, aceptaste utilizar las
+          cookies necesarias.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Una cookie es un archivo de texto que un servidor de páginas web
+          coloca en tu disco duro. Las cookies no se pueden utilizar para
+          ejecutar programas o enviar virus a tu computadora. Las cookies se te
+          asignan de forma exclusiva y solo un servidor web en el dominio que
+          emitió la cookie puede leerlas.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Podemos utilizar cookies para recopilar, almacenar y rastrear
+          información con fines estadísticos o de marketing para operar nuestro
+          sitio web. Tienes la capacidad de aceptar o rechazar cookies
+          opcionales. Hay algunas cookies obligatorias que son necesarias para
+          el funcionamiento de nuestro sitio web. Estas cookies no requieren tu
+          consentimiento ya que siempre funcionan. Ten en cuenta que al aceptar
+          las cookies requeridas, también aceptas las cookies de terceros, que
+          podrían usarse a través de servicios proporcionados por terceros si
+          utilizas dichos servicios en nuestro sitio web, por ejemplo, una
+          ventana de visualización de video proporcionada por terceros e
+          integrada en nuestro sitio web.{" "}
+        </p>{" "}
+        <p>
+          <strong>Licencia:</strong>
+        </p>
+        <p>
+          {" "}
+          A menos que se indique lo contrario, Ecodelivery Galapagos y/o sus
+          licenciantes poseen los derechos de propiedad intelectual de toxfgrdo el
+          material en Ecodelivery Galapagos. Todos los derechos de propiedad
+          intelectual son reservados. Puedes acceder desde Ecodelivery Galapagos
+          para tu uso personal sujeto a las restricciones establecidas en estos
+          términos y condiciones.{" "}
+        </p>{" "}
+        <p> No debes: </p>{" "}
+        <ul>
+          {" "}
+          <li>
+            {" "}
+            Copiar o volver a publicar material de Ecodelivery Galapagos{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Vender, alquilar o sublicenciar material de Ecodelivery Galapagos{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Reproducir, duplicar o copiar material de Ecodelivery Galapagos{" "}
+          </li>{" "}
+          <li> Redistribuir contenido de Ecodelivery Galapagos </li>{" "}
+        </ul>{" "}
+        <p> Este acuerdo comenzará el fecha presente. </p>{" "}
+        <p>
+          {" "}
+          Partes de este sitio web ofrecen a los usuarios la oportunidad de
+          publicar e intercambiar opiniones e información en determinadas áreas.
+          Ecodelivery Galapagos no filtra, edita, publica ni revisa los
+          comentarios antes de su presencia en el sitio web. Los comentarios no
+          reflejan los puntos de vista ni las opiniones de Ecodelivery
+          Galapagos, sus agentes y/o afiliados. Los comentarios reflejan los
+          puntos de vista y opiniones de la persona que publica. En la medida en
+          que lo permitan las leyes aplicables, Ecodelivery Galapagos no será
+          responsable de los comentarios ni de ninguna responsabilidad, daños o
+          gastos causados ​​o sufridos como resultado de cualquier uso o
+          publicación o apariencia de comentarios en este sitio web.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Ecodelivery Galapagos se reserva el derecho de monitorear todos los
+          comentarios y eliminar los que puedan considerarse inapropiados,
+          ofensivos o que incumplan estos Términos y Condiciones.{" "}
+        </p>{" "}
+        <p>
+          <strong>Garantizas y declaras que:</strong>
+        </p>
+        <ul>
+          {" "}
+          <li>
+            {" "}
+            Tienes derecho a publicar comentarios en nuestro sitio web y tienes
+            todas las licencias y consentimientos necesarios para hacerlo;{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Los comentarios no invaden ningún derecho de propiedad intelectual,
+            incluidos, entre otros, los derechos de autor, patentes o marcas
+            comerciales de terceros;{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Los comentarios no contienen ningún material difamatorio,
+            calumnioso, ofensivo, indecente o ilegal de otro modo, que sea una
+            invasión de la privacidad.{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Los comentarios no se utilizarán para solicitar o promover negocios
+            o actividades comerciales personalizadas o presentes o actividades
+            ilegales.{" "}
+          </li>{" "}
+        </ul>{" "}
+        <p>
+          {" "}
+          Por la presente, otorgas a Ecodelivery Galapagos una licencia no
+          exclusiva para usar, reproducir, editar y autorizar a otros a usar,
+          reproducir y editar cualquiera de tus comentarios en todas y cada una
+          de las formas, formatos, o medios.{" "}
+        </p>{" "}
+        <p>
+          <strong>Hipervínculos a nuestro contenido:</strong>
+        </p>
+        <p>
+          {" "}
+          Las siguientes organizaciones pueden vincularse a nuestro sitio web
+          sin aprobación previa por escrito:{" "}
+        </p>{" "}
+        <ul>
+          {" "}
+          <li> Agencias gubernamentales; </li> <li> Motores de búsqueda; </li>{" "}
+          <li> Organizaciones de noticias; </li>{" "}
+          <li>
+            {" "}
+            Los distribuidores de directorios en línea pueden vincularse a
+            nuestro sitio web de la misma manera que hacen hipervínculos a los
+            sitios web de otras empresas que figuran en la lista; y{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Empresas acreditadas en todo el sistema, excepto que soliciten
+            organizaciones sin fines de lucro, centros comerciales de caridad y
+            grupos de recaudación de fondos de caridad que no pueden hacer
+            hipervínculos a nuestro sitio web.{" "}
+          </li>{" "}
+        </ul>{" "}
+        <p>
+          {" "}
+          Estas organizaciones pueden enlazar a nuestra página de inicio, a
+          publicaciones o a otra información del sitio siempre que el enlace:
+          (a) no sea engañoso de ninguna manera; (b) no implique falsamente
+          patrocinio, respaldo o aprobación de la parte vinculante y sus
+          productos y/o servicios; y (c) encaja en el contexto del sitio de la
+          parte vinculante.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Podemos considerar y aprobar otras solicitudes de enlaces de los
+          siguientes tipos de organizaciones:{" "}
+        </p>{" "}
+        <ul>
+          {" "}
+          <li>
+            {" "}
+            fuentes de información de consumidores y/o empresas comúnmente
+            conocidas;{" "}
+          </li>{" "}
+          <li> sitios de la comunidad .com; </li>{" "}
+          <li>
+            {" "}
+            asociaciones u otros grupos que representan organizaciones
+            benéficas;{" "}
+          </li>{" "}
+          <li> distribuidores de directorios en línea; </li>{" "}
+          <li> portales de Internet; </li>{" "}
+          <li> firmas de contabilidad, derecho y consultoría; y </li>{" "}
+          <li> instituciones educativas y asociaciones comerciales. </li>{" "}
+        </ul>{" "}
+        <p>
+          {" "}
+          Aprobaremos las solicitudes de enlace de estas organizaciones si: (a)
+          el enlace no nos haría vernos desfavorablemente a nosotros mismos ni a
+          nuestras empresas acreditadas; (b) la organización no tiene registros
+          negativos con nosotros; (c) el beneficio para nosotros de la
+          visibilidad del hipervínculo compensa la ausencia de Ecodelivery
+          Galapagos; y (d) el enlace está en el contexto de información general
+          de recursos.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Estas organizaciones pueden enlazar a nuestra página de inicio siempre
+          que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique
+          falsamente patrocinio, respaldo o aprobación de la parte vinculante y
+          sus productos o servicios; y (c) encaja en el contexto del sitio de la
+          parte vinculante.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Si eres una de las organizaciones enumeradas en el párrafo 2 y estás
+          interesada en vincularte a nuestro sitio web, debes informarnos
+          enviando un correo electrónico a Ecodelivery Galapagos. Incluye tu
+          nombre, el nombre de tu organización, la información de contacto, así
+          como la URL de tu sitio, una lista de las URL desde las que tienes la
+          intención de vincular a nuestro sitio web y una lista de las URL de
+          nuestro sitio a las que te gustaría acceder. Espera 2-3 semanas para
+          recibir una respuesta.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Las organizaciones aprobadas pueden hacer hipervínculos a nuestro
+          sitio web de la siguiente manera:{" "}
+        </p>{" "}
+        <ul>
+          {" "}
+          <li> Mediante el uso de nuestro nombre corporativo; o </li>{" "}
+          <li>
+            {" "}
+            Mediante el uso del localizador uniforme de recursos al que se está
+            vinculando; o{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            Usar cualquier otra descripción de nuestro sitio web al que está
+            vinculado que tenga sentido dentro del contexto y formato del
+            contenido en el sitio de la parte vinculante.{" "}
+          </li>{" "}
+        </ul>{" "}
+        <p>
+          {" "}
+          No se permitirá el uso del logotipo de Ecodelivery Galapagos u otro
+          material gráfico para vincular sin un acuerdo de licencia de marca
+          comercial.{" "}
+        </p>{" "}
+        <p>
+          <strong>Responsabilidad del contenido:</strong>
+        </p>
+        <p>
+          {" "}
+          No seremos responsables de ningún contenido que aparezca en tu sitio
+          web. Aceptas protegernos y defendernos contra todas las reclamaciones
+          que se presenten en tu sitio web. Ningún enlace(s) debe aparecer en
+          ningún sitio web que pueda interpretarse como difamatorio, obsceno o
+          criminal, o que infrinja, de otra manera viole o defienda la
+          infracción u otra violación de los derechos de terceros.{" "}
+        </p>{" "}
+        <p>
+          <strong>Reserva de derechos:</strong>
+        </p>
+        <p>
+          {" "}
+          Nos reservamos el derecho de solicitar que elimines todos los enlaces
+          o cualquier enlace en particular a nuestro sitio web. Apruebas
+          eliminar de inmediato todos los enlaces a nuestro sitio web cuando se
+          solicite. También nos reservamos el derecho de modificar estos
+          términos y condiciones y su política de enlaces en cualquier momento.
+          Al vincular continuamente a nuestro sitio web, aceptas estar vinculado
+          y seguir estos términos y condiciones de vinculación.{" "}
+        </p>{" "}
+        <p>
+          <strong>Eliminación de enlaces de nuestro sitio web:</strong>
+        </p>
+        <p>
+          {" "}
+          Si encuentras algún enlace en nuestro sitio que sea ofensivo por
+          cualquier motivo, puedes contactarnos e informarnos en cualquier
+          momento. Consideraremos las solicitudes para eliminar enlaces, pero no
+          estamos obligados a hacerlo ni a responder directamente.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          No nos aseguramos de que la información de este sitio web sea
+          correcta. No garantizamos su integridad o precisión, ni prometemos
+          asegurarnos de que el sitio web permanezca disponible o que el
+          material en el sitio se mantenga actualizado.{" "}
+        </p>{" "}
+        <p>
+          <strong>Exención de responsabilidad:</strong>
+        </p>
+        <p>
+          {" "}
+          En la medida máxima permitida por la ley aplicable, excluimos todas
+          las representaciones, garantías y condiciones relacionadas con nuestro
+          sitio web y el uso de este. Nada en este descargo de responsabilidad:{" "}
+        </p>{" "}
+        <ul>
+          {" "}
+          <li>
+            {" "}
+            limitará o excluirá nuestra responsabilidad o la tuya por muerte o
+            lesiones personales;{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            limitará o excluirá nuestra responsabilidad o la tuya por fraude o
+            tergiversación fraudulenta;{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            limitará cualquiera de nuestras responsabilidades o las tuyas de
+            cualquier manera que no esté permitida por la ley aplicable; o{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            excluirá cualquiera de nuestras responsabilidades o las tuyas que no
+            puedan estar excluidas según la ley aplicable.{" "}
+          </li>{" "}
+        </ul>{" "}
+        <p>
+          {" "}
+          Las limitaciones y prohibiciones de responsabilidad establecidas en
+          esta sección y en otras partes de este descargo de responsabilidad:
+          (a) están sujetas al párrafo anterior; y (b) regirá todas las
+          responsabilidades que surjan en virtud de la exención de
+          responsabilidad, incluidas las responsabilidades que surjan en el
+          contrato, en agravio y por incumplimiento de la obligación legal.{" "}
+        </p>{" "}
+        <p>
+          {" "}
+          Siempre que el sitio web y la información y los servicios en el sitio
+          se proporcionen de forma gratuita, no seremos responsables de ninguna
+          pérdida o daño de cualquier naturaleza.{" "}
+        </p>
+      </section>
     </article>
   </div>
 )
