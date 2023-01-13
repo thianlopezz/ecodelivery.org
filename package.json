@@ -36,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Safi1012/about-me.git"
+  },
+  "engines": {
+    "node": ">=14.15.0"
   }
 }
